@@ -1,8 +1,8 @@
 
-/* Import Google Font */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-/* Whole webpage */
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #F5F1E8;
@@ -12,7 +12,7 @@ body {
     margin: 0;
 }
 
-/* Header */
+
 header {
     background-color: #176B87;
     color: #FFFFFF;
@@ -24,7 +24,7 @@ header h1 {
     margin-bottom: 5px;
 }
 
-/* Navigation */
+
 nav {
     background-color: #263746;
     text-align: center;
@@ -38,25 +38,18 @@ nav a {
     font-weight: 600;
 }
 
-/* Visited links */
+
 nav a:visited {
     color: #D6E8EF;
 }
 
-/* Hover links */
+
 nav a:hover {
     color: #FFD166;
     text-decoration: underline;
 }
 
-/* Keyboard focus */
-nav a:focus {
-    color: #FFD166;
-    outline: 2px solid #FFFFFF;
-    outline-offset: 4px;
-}
 
-/* Main content */
 main {
     max-width: 900px;
     margin: 30px auto;
@@ -65,7 +58,7 @@ main {
     border-radius: 12px;
 }
 
-/* Headings */
+
 h2 {
     color: #176B87;
     border-bottom: 2px solid #D6E8EF;
@@ -77,28 +70,25 @@ h3 {
     margin-top: 25px;
 }
 
-/* Class selector */
+
 .intro {
     font-size: 17px;
 }
 
-/* ID selector */
+
 #top {
     scroll-behavior: smooth;
 }
 
-/* Span for emphasized text */
-.emphasis {
-    color: #176B87;
-    font-weight: 700;
-}
 
-/* De-emphasized text */
+
+
+
 .muted {
     color: #637786;
 }
 
-/* Color questions section */
+
 .color-notes {
     background-color: #F5F1E8;
     padding: 15px 25px;
@@ -107,7 +97,7 @@ h3 {
     margin-top: 30px;
 }
 
-/* Footer */
+
 footer {
     background-color: #263746;
     color: #FFFFFF;
@@ -122,17 +112,4 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-}
-
-/* Smaller screens */
-@media (max-width: 600px) {
-    main {
-        margin: 15px;
-        padding: 18px;
-    }
-
-    nav a {
-        display: inline-block;
-        margin: 5px 8px;
-    }
 }
