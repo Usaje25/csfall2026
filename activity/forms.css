@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #c6ec5e);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+}
+
+form {
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+fieldset {
+    border: 2px solid #667eea;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+legend {
+    color: #667eea;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 10px;
+}   
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    color: #333;
+    margin-top: 12px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px;
+}   
+
+input[type="submit"] {
+    background-color: #e20909;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    font-weight: bold;
+    font: 16px;
+}   
+
+@media screen and (max-width: 600px) {
+    form {
+        padding: 15px;
+    }   
+    input [type="submit"] {
+        width: 100%;
+    }
+
+}
